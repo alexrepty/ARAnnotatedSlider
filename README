@@ -1,0 +1,2 @@
+This project demonstrates how to use KVO to observe and react to interface changes, such as a slider being tracked/moved.
+
