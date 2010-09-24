@@ -1,2 +1,3 @@
 This project demonstrates how to use KVO to observe and react to interface changes, such as a slider being tracked/moved.
 
+Check out my blog post that talks about this code: http://blog.proculo.de/archives/182-Using-KVO-to-annotate-UISliders.html
