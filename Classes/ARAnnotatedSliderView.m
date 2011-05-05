@@ -142,8 +142,8 @@ NSString *const kARPageScrubberViewKeypathTracking	= @"tracking";
 		return;
 	}
 	
-	[thumbImageView addObserver:self forKeyPath:kARPageScrubberViewKeypathFrame options:NSKeyValueChangeReplacement context:(void *)thumbImageView];
-	[_slider addObserver:self forKeyPath:kARPageScrubberViewKeypathTracking options:NSKeyValueChangeReplacement context:(void *)thumbImageView];
+	[thumbImageView addObserver:self forKeyPath:kARPageScrubberViewKeypathFrame options:0 context:(void *)thumbImageView];
+	[_slider addObserver:self forKeyPath:kARPageScrubberViewKeypathTracking options:0 context:(void *)thumbImageView];
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
