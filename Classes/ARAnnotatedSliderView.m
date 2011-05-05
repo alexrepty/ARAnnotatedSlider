@@ -85,6 +85,7 @@ NSString *const kARPageScrubberViewKeypathTracking	= @"tracking";
 	ARAnnotatedSliderBubbleView *bubbleView = [[ARAnnotatedSliderBubbleView alloc] initWithFrame:bubbleFrame];
 	[self addSubview:bubbleView];
 	[self bringSubviewToFront:bubbleView];
+        bubbleView.hidden = YES;
 	self.bubbleView = bubbleView;
 	[bubbleView release]; bubbleView = nil;
 	
